@@ -1,0 +1,60 @@
+//======================================================BOXED LAYOUT=======================================================
+
+/*GRID - media queries breakpoints*/
+
+$sm-min: 640px;
+$md-min: 768px;
+$lg-min: 1024px;
+$xl-min: 1180px;
+$xl2-min: 1536px;
+$sm-max: ($sm-min - 1); // Small Mobile
+$md-max: ($md-min - 1); // Mobile
+$lg-max: ($lg-min - 1); // Tablet
+$xl-max: ($xl-min - 1); // Desktop
+$xl2-max: ($xl2-min - 1); // Large Desktop
+// colors
+$white-cl: #ffffff;
+$black-cl: #000000;
+$dark-cl: #23262b;
+$grey-light-cl: #fcfcfc;
+$pink-cl: #f54351;
+$gray-dark-cl: rgba(9, 21, 41, 0.85);
+$pink-linear-cl: linear-gradient(97.16deg, #f54351 -1.51%, #d0008f 133.51%);
+$t: 0.5s;
+
+:root {
+  // font-size & line-height heading
+  --h1-fs: 40px;
+  --h1-lh: 48px;
+  --h2-fs: 32px;
+  --h2-lh: 38px;
+  --body-fs: 14px;
+  --body-lh: 18px;
+  --t16-fs: 16px;
+  --t16-lh: 24px;
+  --t12-fs: 12px;
+  --t12-lh: 18px;
+  // Genaral Variable
+  --height-header: 120px;
+  --height-mobile-cta: 70px;
+  --gap: 30px;
+  --linear-pink: linear-gradient(97.16deg, #f54351 -1.51%, #d0008f 133.51%);
+  @media (max-width: $xl-max) {
+  }
+  @media (max-width: $lg-max) {
+    --h1-fs: 30px;
+    --h1-lh: 38px;
+    --h2-fs: 25px;
+    --h2-lh: 31px;
+  }
+  @media (max-width: $md-max) {
+    --height-header: 80px;
+    --gap: 15px;
+  }
+  @media (max-width: $sm-max) {
+    --h1-fs: 22px;
+    --h1-lh: 30px;
+    --h2-fs: 22px;
+    --h2-lh: 28px;
+  }
+}

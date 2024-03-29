@@ -1,0 +1,43 @@
+{
+  "DOWN_APP": "Download App",
+
+  "HERO.TITLE": "Bitback - Decentralized Wallet & Entertainment Platform",
+  "HERO.TEXT_1": "To make first tokens more accessible to the general population.",
+  "HERO.TEXT_2": "NFT market place is meant to help you know the advantages of investing in NFTs.",
+  "HERO.TEXT_3": "Solutions for Blockchain projects in order to increase marketing outcome and optimize cost effectively.",
+  "HERO.TEXT_4": "An entertaining and rewarding application to earn and redeem rewards.",
+
+  "FEATURE_1.TITLE": "Decentralized Wallet",
+  "FEATURE_1.SUBTITLE": "Hottest wallet for NON - crypto users",
+  "FEATURE_1.TEXT_1": "Easy-to-use interface to manage crypto balances. Keeping your own assets safe and accessible.",
+  "FEATURE_1.TEXT_2": "Store your first token- support to trade various assets on DEX.",
+  "FEATURE_1.TEXT_3": "Enjoy DeFi.",
+
+  "FEATURE_2.TITLE": "MISSION SYSTEM",
+  "FEATURE_2.TEXT_1": "Earn unlimited money with simple missions.",
+  "FEATURE_2.TEXT_2": "Turn idle time into income.",
+  "FEATURE_2.TEXT_3": "Every moment of interaction with Bitback creates real value.",
+
+  "FEATURE_3.TITLE": "Entertainment Platform",
+  "FEATURE_3.TEXT_1": "Provide entertainment experiences, enjoy your time to get worthy rewards and a source of income.",
+  "FEATURE_3.TEXT_2": "Enterprises are able to promote their products and services easily to our Bitbackers community with proper cost and optimal efficiency.",
+
+  "ACHIEVEMENTS.TITLE": "Significant achievements",
+  "ACHIEVEMENTS.TEXT_1": "Total account registration",
+  "ACHIEVEMENTS.TEXT_2": "Daily active users",
+  "ACHIEVEMENTS.TEXT_3": "Daily new users",
+  "ACHIEVEMENTS.TEXT_4": "USDT Rewards",
+  "ACHIEVEMENTS.TEXT_5": "Retention rate",
+
+  "PARTNERS.TITLE": "Investors & Partners",
+
+  "HEADER.PLATFORM": "Platform",
+  "HEADER.WALLET": "Wallet",
+  "HEADER.MISSION": "Missions",
+  "HEADER.ACHIEVEMENTS": "Achievements",
+  "HEADER.PARTNERS": "Partners",
+  "HEADER.CONTACT": "Contact us",
+
+  "FOOTER.TEXT_1": "Copyright © 2021 BBC Token. All rights reserved.",
+  "FOOTER.TEXT_2": "Join our Community"
+}

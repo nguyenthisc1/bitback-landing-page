@@ -1,0 +1,43 @@
+{
+  "DOWN_APP": "Tải ứng dụng",
+
+  "HERO.TITLE": "Bitback - Nền tảng giải trí và ví phi tập trung",
+  "HERO.TEXT_1": "Mục đích đưa các token đến với đông đảo người dùng thông qua việc hoàn thành những nhiệm vụ đơn giản.",
+  "HERO.TEXT_2": "Giúp bạn biết những lợi thế của việc đầu tư vào NFT.",
+  "HERO.TEXT_3": "Cung cấp giải pháp cho các dự án Blockchain, tối ưu hiệu quả Marketing và chi phí cho các dự án.",
+  "HERO.TEXT_4": "Một ứng dụng giải trí và gia tăng thu nhập.",
+
+  "FEATURE_1.TITLE": "Ví phi tập trung",
+  "FEATURE_1.SUBTITLE": "Chiếc ví vô cùng hấp dẫn dành cho NON-crypto user",
+  "FEATURE_1.TEXT_1": "Giao diện dễ sử dụng và quản lý tài sản số một cách an toàn.",
+  "FEATURE_1.TEXT_2": "Lưu trữ token của bạn và hỗ trợ để giao dịch các tài sản khác nhau trên DEX.",
+  "FEATURE_1.TEXT_3": "Trải nghiệm DeFi.",
+
+  "FEATURE_2.TITLE": "Hệ thống nhiệm vụ",
+  "FEATURE_2.TEXT_1": "Kiếm tiền không giới hạn với các nhiệm vụ đơn giản, đa dạng.",
+  "FEATURE_2.TEXT_2": "Biến thời gian nhàn rỗi thành thu nhập.",
+  "FEATURE_2.TEXT_3": "Mỗi giây phút tương tác với chúng tôi đều tạo ra giá trị thật. ",
+
+  "FEATURE_3.TITLE": "Nền tảng giải trí",
+  "FEATURE_3.TEXT_1": "Mang đến những trải nghiệm không chỉ giúp người chơi giải trí, mà còn kiếm ra tiền, tạo ra nguồn thu nhập thụ động.",
+  "FEATURE_3.TEXT_2": "Các doanh nghiệp cũng có thể đẩy mạnh việc quảng bá sản phẩm và dịch vụ đến với cộng đồng Bitbacker với chi phí hợp lý.",
+
+  "ACHIEVEMENTS.TITLE": "Con số ấn tượng",
+  "ACHIEVEMENTS.TEXT_1": "Tài khoản đăng ký",
+  "ACHIEVEMENTS.TEXT_2": "Người sử dụng mỗi ngày",
+  "ACHIEVEMENTS.TEXT_3": "Người dùng mới mỗi ngày ",
+  "ACHIEVEMENTS.TEXT_4": "USDT đã trả thưởng",
+  "ACHIEVEMENTS.TEXT_5": "Tỷ lệ quay lại",
+
+  "PARTNERS.TITLE": "Nhà đầu tư và đối tác",
+
+  "HEADER.PLATFORM": "Ứng dụng",
+  "HEADER.WALLET": "Ví",
+  "HEADER.MISSION": "Nhiệm vụ",
+  "HEADER.ACHIEVEMENTS": "Thành tựu",
+  "HEADER.PARTNERS": "Đối tác",
+  "HEADER.CONTACT": "Liên hệ",
+
+  "FOOTER.TEXT_1": "Copyright © 2021 BBC Token. All rights reserved.",
+  "FOOTER.TEXT_2": "Join our Community"
+}

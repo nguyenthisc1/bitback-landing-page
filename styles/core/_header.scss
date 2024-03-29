@@ -1,0 +1,9 @@
+.header {
+  background-color: $grey-light-cl;
+  transition: box-shadow $t ease;
+  @include size(100%, var(--height-header));
+  @include position(fixed, 0, $z: 100);
+  &.active {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.03);
+  }
+}

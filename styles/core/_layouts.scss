@@ -1,0 +1,63 @@
+@-ms-viewport {
+  width: device-width;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+a:active,
+a:focus {
+  outline: none !important;
+  border: none !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  user-select: none;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  scroll-behavior: smooth;
+  @include text('Prompt', var(--body-fs), var(--body-lh));
+  background: $white-cl;
+  color: $gray-dark-cl;
+  position: relative;
+
+  .container {
+    position: relative;
+    padding-right: var(--gap);
+    padding-left: var(--gap);
+  }
+
+  @include xl2 {
+    // CSS responsive large desktop
+  }
+  @include xl {
+    // CSS responsive desktop
+    .container {
+      max-width: 1180px !important;
+    }
+  }
+  @include lg {
+    // CSS responsive tablet
+  }
+  @include md {
+    // CSS responsive mobile
+  }
+  @include sm {
+    // CSS responsive small mobile
+  }
+}

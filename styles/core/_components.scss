@@ -1,0 +1,70 @@
+@layer components {
+  .layout-section {
+    @apply grid gap-[15px] grid-cols-4;
+  }
+
+  .pdss {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  .pdbl {
+    padding-block: 80px;
+  }
+  @include md {
+    .layout-section {
+      @apply gap-[30px];
+    }
+    .pdss {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    .pdbl {
+      padding-block: 120px;
+    }
+  }
+  @include lg {
+    .layout-section {
+      @apply grid-cols-12;
+    }
+    .pdss {
+      padding-bottom: 100px;
+      padding-top: 100px;
+    }
+    .pdbl {
+      padding-block: 160px;
+    }
+  }
+}
+
+.hero {
+  padding-block: 80px;
+  margin-top: var(--height-header);
+
+  @include md {
+    padding-top: 60px;
+    padding-bottom: 120px;
+  }
+}
+
+.hero-image {
+  background-image: url('/images/hero.png');
+  @include bgcenter;
+  @include lg {
+    width: calc(100% + 170px);
+  }
+}
+
+.react-parallax {
+  overflow: unset !important;
+  img {
+    height: 100% !important;
+  }
+}
+
+.parallax-token {
+  position: absolute !important;
+  @include size(65px);
+  img {
+    @include size(65px !important);
+  }
+}

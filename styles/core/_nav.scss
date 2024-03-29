@@ -1,0 +1,65 @@
+.nav {
+  --t: 0.5s;
+  background-color: $white-cl;
+  transition: height var(--t) ease-in-out;
+  will-change: height;
+  transition-delay: var(--t);
+  pointer-events: none;
+  @include position(fixed, $t: var(--height-header), $z: 100);
+  @include size(100%, 0);
+  &.active {
+    height: calc(100vh - var(--height-header));
+    transition-delay: 0s;
+    pointer-events: auto;
+    .nav-li::before {
+      width: 100%;
+    }
+    .nav-link__text {
+      transform: none;
+      transition-delay: 0s;
+    }
+  }
+  .nav-menu {
+    @include size(100%, calc(100vh - var(--height-header)));
+  }
+  .nav-li {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 15px;
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      background-color: rgb(204, 204, 204, 0.5);
+      transition: 0.4s ease-out;
+      transition-duration: width;
+      will-change: width;
+      @include size(0, 1px);
+    }
+    &:hover {
+      .nav-link__text {
+        background: linear-gradient(97.16deg, #f54351 -1.51%, #d0008f 133.51%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+    }
+  }
+  .nav-link__text {
+    display: inline-block;
+    transform: translateY(150%);
+    transition: 0.4s ease;
+    transition-duration: transform;
+    will-change: transform;
+  }
+  @for $i from 1 through 6 {
+    .nav-li:nth-of-type(#{$i}) {
+      &::before {
+        transition-delay: 0.2s + ($i * 0.04s);
+      }
+      .nav-link__text {
+        transition-delay: 0.2s + ($i * 0.025s);
+      }
+    }
+  }
+}

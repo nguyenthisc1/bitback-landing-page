@@ -1,0 +1,70 @@
+[data-aos='show-token'] {
+  --size: 60px;
+  .parallax-token {
+    transform: scale(0);
+    // max-width: var(--size) !important;
+    // max-height: var(--size) !important;
+    // min-width: var(--size) !important;
+    // min-height: var(--size) !important;
+    // width: var(--size) !important;
+    // height: var(--size) !important;
+  }
+
+  &.aos-animate {
+    .parallax-token {
+      transform: scale(1);
+      animation: show 0.4s ease-in;
+    }
+    @for $i from 1 through 9 {
+      .parallax-token:nth-of-type(#{$i}) {
+        transition-delay: 0.05s * $i !important;
+        animation-delay: 0.05s * $i !important;
+      }
+    }
+  }
+}
+
+@keyframes show {
+  0% {
+    transform: scale(0);
+  }
+
+  40% {
+    transform: scale(0.6);
+  }
+
+  80% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+[data-aos='right'] {
+  .show-items {
+    li {
+      opacity: 0;
+      transform: translateX(-20px);
+      transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+      transition-property: opacity, transform;
+    }
+  }
+
+  &.aos-animate {
+    .show-items {
+      li {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    @for $i from 1 through 9 {
+      .show-items {
+        li:nth-of-type(#{$i}) {
+          transition-delay: 0.05s * $i !important;
+        }
+      }
+    }
+  }
+}
